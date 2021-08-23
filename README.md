@@ -1,8 +1,9 @@
-# How-to : gerar mapeamento ORM de forma automática
+# How-to : gerar mapeamento ORM de forma automática utilizando sequelize e sequelize-auto
 **Nesse projeto foi utilizado o ORM sequelize, com os modelos sendo gerados automaticamente com a lib sequelize-auto 
 
-1. Instale a lib sequelize-auto: yarn add sequelize-auto
-2. Gere as classes com o comando: 
+1. Pré-requisitos: instale a sequelize e o dialeto do SGBD a ser utilizado (mysql2 | pg pg-hstore | sqlite3 | tedious)
+2. Instale a lib sequelize-auto: yarn add sequelize-auto
+3. Gere as classes com o comando: 
 
 <code>node_modules\.bin\sequelize-auto -h ENDERECO_BANCO -d NOME_DO_BANCO -u USUARIO_BANCO -x SENHA -p 5432 --dialect postgres -c src/config/database.js -o src/app/models -t produto categoria cliente endereco pedido produto_pedido</code>
 
