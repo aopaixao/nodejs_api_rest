@@ -8,7 +8,6 @@
 
 Onde: 
 <ul>
-
 <li>
   node_modules\.bin\sequelize-auto   : no ambiente Windows, e estando na pasta do projeto, deve-se usar o caminho absoluto para a pasta do módulo sequelize-auto;
 </li>
@@ -39,8 +38,6 @@ Onde:
 <li>
   -t : nome da tabela - ou tabelas, separadas por espaço 
 </li>
-<li>
-
 </ul>
 
 3. Os modelos gerados em sequilize possuem alguns métodos CRUD nativos, a saber: create, findAll e findByPk, 
