@@ -1,4 +1,4 @@
-**How-to : gerar mapeamento ORM de forma automática
+# How-to : gerar mapeamento ORM de forma automática
 **Nesse projeto foi utilizado o ORM sequelize, com os modelos sendo gerados automaticamente com a lib sequelize-auto 
 
 1. Instale a lib sequelize-auto: yarn add sequelize-auto
